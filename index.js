@@ -24,11 +24,9 @@ const chalk = require("chalk");
 
 // ISP free hosts used to disguise requests
 const FREE_HOSTS = [
-  "hccp.com",
-  "freehost2.com",
-  "zero.example.net",
-  "portal.isp.com",
-  "cdn-free.net"
+  "mtn.ng",
+  "engage2.mtn.ng",
+  "engage1.mtn.ng"
 ];
 
 // Rotate through fake user-agents
