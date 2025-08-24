@@ -22,7 +22,7 @@ proxy.onRequest(async (ctx, callback) => {
 
 // Intercept and modify response
 proxy.onResponse((ctx, callback) => {
-  if (ctx.clientToProxyRequest.url.includes("targetsite.com")) {
+  if (ctx.clientToProxyRequest.url.includes("engage2.mtn.ng")) {
     console.log("⚡ Intercepting response from targetsite.com");
 
     // Change 302 → 200
